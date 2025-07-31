@@ -1,6 +1,6 @@
 name: Patience
 
-on: [push_request]
+on: [pull_request, push]
 jobs:
   test:
     runs-on: ubuntu-lastest
